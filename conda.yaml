@@ -1,0 +1,14 @@
+name: causal_inference
+
+dependencies:
+  - python=3.8
+  - numpy
+  - pandas
+  - flake8
+  - pip
+  - ipykernel
+  - pip:
+    - pytest
+    - dowhy
+    - matplotlib
+    - seaborn
